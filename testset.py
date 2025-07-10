@@ -27,8 +27,8 @@ picam2.start()
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
 
 # Initialize Telegram bot
-bot_token = '8173364146:AAHGbLWEXPpib3z9f8w_bzNd5TWNYE-jdmo'  # Replace with your Telegram bot token
-chat_id = '1414195004'  # Replace with your Telegram chat ID
+bot_token = ''  # Replace with your Telegram bot token
+chat_id = ''  # Replace with your Telegram chat ID
 bot = telepot.Bot(bot_token)
 
 
